@@ -11,6 +11,7 @@ const jsonData = {
   "projects": [
     {
       "title": "",
+      "links": "",
       "category": "",
       "explanation": "",
       "period": "",
@@ -54,10 +55,22 @@ const Projects = () => {
     <section id="projects">
       <h1>projects</h1>
       <p>팀프로젝트로 또는 혼자 공부를 위해서 작업했던 프로젝트들 입니다.</p>
+
+      <a href="http://3.34.240.139/jspBoard/" className="pflinks" target='_blank'>jsp Board(link)</a>
+      <br></br>
+      <br></br>
+      <a href="http://3.34.240.139/spbbs/" className="pflinks" target='_blank'>Same Board, Other Ways - Spring MVC(link)</a>
+      <br></br>
+      <br></br>
+      <a href="http://3.34.240.139:8080/" className="pflinks" target='_blank'>Same Board, Other Ways - Springboot(link)</a>
+      <br></br>
+      <br></br>
+      <a href="http://3.34.240.139:3000/" className="pflinks" target='_blank'>Same Board, Other Ways - Express(link)</a>
+
       {posts.projects.map((pr, index) => (
 
             <div key={index} className="project">
-               <h2>{pr.title}</h2>
+               <a href={pr.links}><h2>{pr.title}</h2></a>
                <ol>
                   <li><label>구상</label>{pr.explanation}</li>
                   <li><label>카테고리</label>{pr.category}</li>
@@ -75,8 +88,8 @@ const Projects = () => {
                   <div className="firstpr" key={index}>
                   <h3>{prj.title}</h3>
                   <ol>
-                     <li><label>java버전</label>{prj.version}</li>
-                     <li><label>사용라이브러리</label>
+                     <li><label>언어 버전</label>{prj.version}</li>
+                     <li><label>사용 라이브러리</label>
                         <ul>
                         {prj.technology.map((tech2, index) => (
                            <li key={index}>{tech2}</li>

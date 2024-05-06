@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "jsp Board",
+      "links": "https://github.com/romero9919/jspBoard",
       "category": "개인 프로젝트",
       "explanation": "jsp, servlet을 이용한 게시판.",
       "period": "2023. 5 ~ 2024.1",
@@ -49,6 +50,7 @@
     },
     {
       "title": "Same Board, Other Ways",
+      "links": "https://github.com/romero9919/spbbs",
       "category": "개인 프로젝트",
       "explanation": "같은 db를 이용해 Spring(Legacy), Springboot, Express, PHP 게시판을 만들어 봄.",
       "period": "2023. 9 ~ Current",
@@ -93,6 +95,7 @@
     },
     {
       "title": "Blog-Me",
+      "links": "https://github.com/romero9919/myblog-java",
       "category": "개인 프로젝트",
       "explanation": "React로 프런트엔드를, Java Servlet으로로 백엔드를 처리해본 블로그 프로젝트.",
       "period": "2024. 1 ~ Current",

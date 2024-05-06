@@ -7,6 +7,11 @@ body {
   color:#c6d5ec;
   background: linear-gradient(to bottom right, rgb(24,61,133) 0%, #000215 100%);
 }
+a{
+   color: white;
+   text-decoration: none;
+}
+
 
 /* ================ navigation ============= */
 
@@ -136,4 +141,9 @@ body {
    display:inline-block;
    padding-bottom:4px;
    border-bottom: 3px double rgba(255,255,255,.5);
+}
+
+
+.pflinks:hover{
+   font-weight: 700;
 }

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import { GoArrowRight } from "react-icons/go";
-import { RiGithubFill, RiInstagramFill, RiKakaoTalkFill } from "react-icons/ri";
+import { RiGithubFill, RiInstagramFill } from "react-icons/ri";
 
 const Div = styled.div`
    position: static;
@@ -136,9 +136,8 @@ const Navigation = () => {
                 <img src="images/banner01.png" alt="romero lee" />
             </div>
             <IconBox>
-                <a href="#"><RiGithubFill /></a>
-                <a href="#"><RiInstagramFill /></a>
-                <a href="#"><RiKakaoTalkFill /></a>
+                <a href="https://github.com/romero9919" target='_blank'><RiGithubFill /></a>
+                <a href="https://www.instagram.com/ilperli_rome/"  target='_blank'><RiInstagramFill /></a>
             </IconBox>
         </div>
     </Div>
