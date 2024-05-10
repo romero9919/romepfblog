@@ -147,3 +147,8 @@ a{
 .pflinks:hover{
    font-weight: 700;
 }
+
+.gitlinks{
+   font-size: 35px;
+   margin-left: 20px;
+}

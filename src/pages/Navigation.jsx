@@ -136,8 +136,8 @@ const Navigation = () => {
                 <img src="images/banner01.png" alt="romero lee" />
             </div>
             <IconBox>
-                <a href="https://github.com/romero9919" target='_blank'><RiGithubFill /></a>
-                <a href="https://www.instagram.com/ilperli_rome/"  target='_blank'><RiInstagramFill /></a>
+                <a href="https://github.com/romero9919" target='_blank' rel='noopener noreferrer'><RiGithubFill /></a>
+                <a href="https://www.instagram.com/ilperli_rome/"  target='_blank' rel='noopener noreferrer'><RiInstagramFill /></a>
             </IconBox>
         </div>
     </Div>

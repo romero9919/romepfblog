@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { RiGithubFill } from "react-icons/ri";
 import axios from 'axios';
 
 /**
@@ -12,6 +13,7 @@ const jsonData = {
     {
       "title": "",
       "links": "",
+      "gitlinks": "",
       "category": "",
       "explanation": "",
       "period": "",
@@ -56,21 +58,13 @@ const Projects = () => {
       <h1>projects</h1>
       <p>팀프로젝트로 또는 혼자 공부를 위해서 작업했던 프로젝트들 입니다.</p>
 
-      <a href="http://3.34.240.139/jspBoard/" className="pflinks" target='_blank'>jsp Board(link)</a>
-      <br></br>
-      <br></br>
-      <a href="http://3.34.240.139/spbbs/" className="pflinks" target='_blank'>Same Board, Other Ways - Spring MVC(link)</a>
-      <br></br>
-      <br></br>
-      <a href="http://3.34.240.139:8080/" className="pflinks" target='_blank'>Same Board, Other Ways - Springboot(link)</a>
-      <br></br>
-      <br></br>
-      <a href="http://3.34.240.139:3000/" className="pflinks" target='_blank'>Same Board, Other Ways - Express(link)</a>
+      
 
       {posts.projects.map((pr, index) => (
 
             <div key={index} className="project">
-               <a href={pr.links}><h2>{pr.title}</h2></a>
+               <a href={pr.links} rel='noopener noreferrer' target='_blank'><h2>{pr.title}</h2></a>
+               <a href={pr.gitlinks} rel='noopener noreferrer' target='_blank' className='gitlinks'><RiGithubFill /></a>
                <ol>
                   <li><label>구상</label>{pr.explanation}</li>
                   <li><label>카테고리</label>{pr.category}</li>
