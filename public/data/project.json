@@ -61,7 +61,7 @@
       "project": [
         {
           "version": "Java 11",
-          "technology": ["Spring WEB", "MyBatis", ""],
+          "technology": ["Spring WEB", "MyBatis"],
           "frontend": "HTML5, CSS3, JavaScript, Jquery, Bootstrap 4",
           "history": [
             "servlet-context.xml을 이용해 db connection",
@@ -117,6 +117,39 @@
       ]
     },
     {
+      "title": "Blog-Me",
+      "links": "/",
+      "gitlinks": "https://github.com/romero9919/myblog",
+      "category": "개인 프로젝트",
+      "explanation": "React로 프런트엔드를, Java Servlet으로로 백엔드를 처리해본 블로그 프로젝트.",
+      "period": "2024. 1 ~ Current",
+      "technology": ["React", "Java Servlet"],
+      "database": "MySQL",
+      "project": [
+        {
+          "version": "Java 11, Node.js 18.17.1",
+          "technology": ["jsp & servlet", "session 인증 및 filter이용", "jndi 커넥션풀"],
+          "frontend": "HTML5, CSS3, JavaScript, Jquery, Bootstrap 4",
+          "history": [
+            "React를 통한 Front-end, Java를 통한 Back-end 서비스",
+            "Admin 계정 로그인 화면이 따로 존재, Servlet으로 로그인 및 업로드",
+            "백엔드로 업로드 된 포스트는 React로 화면에 출력",
+            "업로드를 위해 summernote 에디터 활용"
+          ],
+          "events": [
+            {
+              "type": "dbconnect",
+              "details": [
+                "jdbc connect class 를 이용해 db connect",
+                "db 커넥션 풀을 이용해 db connection 관리로 변경",
+                "MyBatis를 통해 SQL 적용"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Same Board, Other Ways",
       "links": "http://3.34.240.139:3000/",
       "gitlinks":"https://github.com/romero9919/board_express",
@@ -155,39 +188,6 @@
                 "따라서 각 특성에 맞춘 방식으로 db를 연동하며, 모든 프로젝트에 대응되도록 테이블 설계",
                 "Express에서는 dotenv 패키지와 mysql-2 패키지를 이용해 접근, Spring에서는 xml 파일을 통해 JDBC 접근",
                 "PHP에서는 MySQLi를 사용하여 DB에 접근함"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Blog-Me",
-      "links": "/",
-      "gitlinks": "https://github.com/romero9919/myblog",
-      "category": "개인 프로젝트",
-      "explanation": "React로 프런트엔드를, Java Servlet으로로 백엔드를 처리해본 블로그 프로젝트.",
-      "period": "2024. 1 ~ Current",
-      "technology": ["React", "Java Servlet"],
-      "database": "MySQL",
-      "project": [
-        {
-          "version": "Java 11, Node.js 18.17.1",
-          "technology": ["jsp & servlet", "session 인증 및 filter이용", "jndi 커넥션풀"],
-          "frontend": "HTML5, CSS3, JavaScript, Jquery, Bootstrap 4",
-          "history": [
-            "React를 통한 Front-end, Java를 통한 Back-end 서비스",
-            "Admin 계정 로그인 화면이 따로 존재, Servlet으로 로그인 및 업로드",
-            "백엔드로 업로드 된 포스트는 React로 화면에 출력",
-            "업로드를 위해 summernote 에디터 활용"
-          ],
-          "events": [
-            {
-              "type": "dbconnect",
-              "details": [
-                "jdbc connect class 를 이용해 db connect",
-                "db 커넥션 풀을 이용해 db connection 관리로 변경",
-                "MyBatis를 통해 SQL 적용"
               ]
             }
           ]
