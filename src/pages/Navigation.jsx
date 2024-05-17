@@ -84,9 +84,7 @@ const MyNav = styled.div`
 `;
 const IconBox = styled.div`
    margin-top:0px;
-   @media (min-width: 992px) {
-    margin-top:30px;
-  }    
+   
    text-align:center;
    & > a {
       color:rgba(255,255,255,0.6);

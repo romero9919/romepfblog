@@ -51,7 +51,7 @@
     },
     {
       "title": "Spring Board",
-      "links": "/",
+      "links": "http://musicart.co.kr:8080/",
       "gitlinks": "https://github.com/romero9919/spboard",
       "category": "개인 프로젝트",
       "explanation": "Spring Legacy를 이용한 게시판.",
@@ -151,8 +151,8 @@
     },
     {
       "title": "Same Board, Other Ways",
-      "links": "http://3.34.240.139:3000/",
-      "gitlinks":"https://github.com/romero9919/board_express",
+      "links": "/",
+      "gitlinks":"https://github.com/romero9919/sameboard",
       "category": "개인 프로젝트",
       "explanation": "같은 db를 이용해 Spring(Legacy), Express, PHP 게시판을 만들어 봄.",
       "period": "2023. 9 ~ Current",
