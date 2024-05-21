@@ -3,6 +3,7 @@ import { Container , Row, Col } from 'react-bootstrap'
 import Navigation from './pages/Navigation'
 import About from './pages/About'
 import Story from './pages/Story'
+import Email from './pages/Email'
 import Projects from './pages/Projects'
 import SpotLight from './components/SpotLight'
 
@@ -17,6 +18,7 @@ const App = () => {
                 <About />
                 <Story />
                 <Projects />
+                <Email />
              </Col>
           </Row>
       </Container>

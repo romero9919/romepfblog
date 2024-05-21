@@ -129,6 +129,12 @@ const Navigation = () => {
                onClick={() => handleClick('projects')}      >
                     <span className="line d-none d-md-block"></span><GoArrowRight /> projects 
                 </a>
+                <a href="#email" className={`nav 
+                                    ${actItem === 'email' ? 'action' : ''}
+                                  `}
+               onClick={() => handleClick('email')}      >
+                    <span className="line d-none d-md-block"></span><GoArrowRight /> contact 
+                </a>
             </MyNav>
             <div className="imgbox d-none d-md-block">
                 <img src="images/banner01.png" alt="romero lee" />

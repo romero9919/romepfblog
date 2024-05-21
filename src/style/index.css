@@ -56,12 +56,13 @@ a{
 }
 
 /*================== ABOUT ===============*/
-#about, #story, #projects{
+#about, #story, #projects, #email{
    padding:130px 10px;
 }
 #about h1,
 #story h1,
-#projects h1{
+#projects h1,
+#email h1{
    font-size:1.2rem;
    font-weight:700;
    text-transform: uppercase;
@@ -151,4 +152,8 @@ a{
 .gitlinks{
    font-size: 35px;
    margin-left: 20px;
+}
+
+.textarea{
+   height:150px;
 }
